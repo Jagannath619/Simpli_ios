@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <listeners>
+		<listener class-name="com.api.reports.foundation.MyConfigListener" />
+		<listener class-name="com.api.reports.foundation.InvokedMethodListener" />
+		<listener class-name="com.api.reports.foundation.ExecutionListener1" />
+		<listener class-name="com.api.reports.foundation.ExecutionListener2" />
+	</listeners>
+  
+  <test name="Test">
+    <classes>
+      <class name="com.automation.simplilearn.ios.Test2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

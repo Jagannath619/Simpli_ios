@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6767" started-at="2017-06-06T11:02:55Z" finished-at="2017-06-06T11:03:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6767" started-at="2017-06-06T11:02:55Z" finished-at="2017-06-06T11:03:01Z">
+      <class name="com.api.reports.extent.SimpliscreenShot">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="beforeTest" is-config="true" duration-ms="1194" started-at="2017-06-06T16:32:55Z" finished-at="2017-06-06T16:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToApp()[pri:1, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="loginToApp" duration-ms="10" started-at="2017-06-06T16:32:56Z" finished-at="2017-06-06T16:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="afterMethod" is-config="true" duration-ms="3" started-at="2017-06-06T16:32:56Z" finished-at="2017-06-06T16:32:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp status=SUCCESS method=SimpliscreenShot.loginToApp()[pri:1, instance:com.api.reports.extent.SimpliscreenShot@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyMyCourse()[pri:2, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="verifyMyCourse" duration-ms="5003" started-at="2017-06-06T16:32:56Z" finished-at="2017-06-06T16:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyCourse -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-06T16:33:01Z" finished-at="2017-06-06T16:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMyCourse status=SUCCESS method=SimpliscreenShot.verifyMyCourse()[pri:2, instance:com.api.reports.extent.SimpliscreenShot@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLogout()[pri:3, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="verifyLogout" duration-ms="2" started-at="2017-06-06T16:33:01Z" finished-at="2017-06-06T16:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-06T16:33:01Z" finished-at="2017-06-06T16:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=SimpliscreenShot.verifyLogout()[pri:3, instance:com.api.reports.extent.SimpliscreenShot@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.api.reports.extent.SimpliscreenShot@42dafa95]" name="afterTest" is-config="true" duration-ms="507" started-at="2017-06-06T16:33:01Z" finished-at="2017-06-06T16:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.api.reports.extent.SimpliscreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
