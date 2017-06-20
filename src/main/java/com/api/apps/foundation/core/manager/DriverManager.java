@@ -35,7 +35,7 @@ public class DriverManager {
 	private static String unlockPackage = "io.appium.unlock";
 	 private static File classpathRoot = new File(System.getProperty("user.dir"));
 	 private static File appDir = new File(classpathRoot, "/apps/");
-	 private static File app= new File("//Users//jagannathpanda//Documents//Simplilearn_ios//Simplilearn.app");
+	 private static File app= new File("//Users//jagannath//Documents//Simplilearn_ios//Simplilearn.app");
 	 
 	 private static DesiredCapabilities getCaps(){
 			MyLogger.log.info("Creating desirecapabalities for device: "+deviceID);
@@ -49,7 +49,7 @@ public class DriverManager {
 			
 			caps.setCapability(MobileCapabilityType.APP, app);
 			caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
-			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.2");
+			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.3");
 			
 			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Golden's iPhone");
 			caps.setCapability(MobileCapabilityType.UDID, "95077cf465446a4a204509b3bc47018537f105b9");

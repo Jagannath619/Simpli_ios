@@ -20,6 +20,7 @@ public class Test1 {
 		UiObject homeLogin= new UiSelector().xPath("//XCUIElementTypeOther//XCUIElementTypeButton[2]").makeUiObject();
 	homeLogin.tap();
 	Thread.sleep(5000);
+	IOS.driver.quit();
 	
 	}
 }
