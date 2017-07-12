@@ -12,7 +12,7 @@ public static String htmlString(){
 	StringBuilder contentBuilder = new StringBuilder();
 	String replaceString;
 	try { 
-	    BufferedReader in = new BufferedReader(new FileReader("/Users/jagannathpanda/Documents/eclipse 2/com.automation.simplilearn.ios/test-output/emailable-report.html"));
+	    BufferedReader in = new BufferedReader(new FileReader("/Users/jagannath/Documents/eclipse 3/com.mobile.simplilearn/test-output/emailable-report.html"));
 	    String str;
 	    while ((str = in.readLine()) != null) {
 	        contentBuilder.append(str);
